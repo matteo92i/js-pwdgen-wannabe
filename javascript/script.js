@@ -1,7 +1,7 @@
 var enterName = prompt('inserisci nome');
 var enterSurname = prompt ('inserisci cognome');
 var favoriteColor = prompt('inserisci colore preferito');
-var numero = 21
+var numero = Math.floor(Math.random() * 10)
 document.getElementById('password').innerHTML =  enterName + enterSurname + favoriteColor + numero;
 
 document.getElementById('enterName').innerHTML = "nome:" + enterName;
